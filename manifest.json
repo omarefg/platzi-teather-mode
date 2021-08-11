@@ -1,6 +1,6 @@
 {
   "name": "Platzi Teather Mode",
-  "desription": "Te permite active el modo teatro en los videos de los cursos de Platzi",
+  "description": "Te permite active el modo teatro en los videos de los cursos de Platzi",
   "manifest_version": 3,
   "version": "1.0.0",
   "permissions": ["activeTab"],
