@@ -6,23 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Platzi Teather Mode</title>
     <style>
-      .container {
-        width: 300px;
-        height: 300px;
+      button {
+        background-color: #0791e6;
+        border: 1px solid #0791e6;
+        font-weight: 700;
+        color: #fff;
+        padding: 7px 11px;
+        text-align: center;
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <label for="teatherMode">Modo teatro</label>
-      <input id="teatherMode" type="checkbox" />
-    </div>
-    <script>
-        const checkbox = document.getElementById('teatherMode')
-        checkbox.addEventListener('change', function(event) {
-            const { checked } = event.target
-            console.log(checked)
-        })
-    </script>
+    <button id="teatherMode">Activar / Desactivar modo teatro</button>
+    <script src="index.js"></script>
   </body>
 </html>
